@@ -1,0 +1,25 @@
+.portfolio{
+    padding-top: 20px;
+    width: 2000px;
+}
+
+.food-layer{
+    background-color: #f9f6f6ca;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    transition:  1s;
+    z-index: 9;
+    transform: translateY(200px);
+    opacity: 0;
+    border-radius: 10px;
+}
+.type-of-food:hover .food-layer{
+    opacity: 1;
+    transform: translateY(0px);
+}
+i{
+    font-size: 40px;
+    margin-left: 160px;
+}
